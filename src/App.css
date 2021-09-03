@@ -1,31 +1,7 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +11,69 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main-background {
+  background-image: url(./Artwork/shutterstock_15789260171.png);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  z-index: -2;
+}
+
+.background-mask {
+  background-color: #147aff1f;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.app-align {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  top: 0px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #202020ce;
+  z-index: 1;
+}
+
+.navbar-brand {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  margin-left: 2vw;
+  margin-top: 2vw;
+  font-family: Klavika;
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+}
+
+.alert-danger {
+  position: fixed;
+  width: 100%;
+}
+
+.alert-danger:hover {
+  cursor: pointer;
 }

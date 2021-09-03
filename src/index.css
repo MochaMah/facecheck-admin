@@ -1,13 +1,33 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: KlavikaMedium;
+  src: local(sheraFont), url("./Fonts/KlavikaMedium-TF.otf") format("truetype");
+}
+
+@font-face {
+  font-family: KlavikaBoldBold;
+  src: local(sheraFont), url("./Fonts/KlavikaBoldBold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: KanitNormal;
+  src: local(sheraFont), url("./Fonts/Kanit-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: THSarabunBold;
+  src: local(sheraFont), url("./Fonts/THSarabunBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: THSarabun;
+  src: local(sheraFont), url("./Fonts/THSarabun.ttf") format("truetype");
 }
